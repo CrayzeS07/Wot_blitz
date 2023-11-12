@@ -25,7 +25,6 @@
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 30px;
-    
   }
   .logo_name{
     margin-top: 10px;
@@ -40,8 +39,6 @@
     display: flex;
     column-gap: 40px;
     padding: 20px 20px;
-    
-    
   }
   .li a{
     color: #fff;
@@ -51,7 +48,6 @@
     transition: 0.3s;
   }
   li a:hover{
-    font-size: 21px;
     text-shadow: 3px 3px 20px #FFFFFF,
         -2px 1px 30px #FFFFFF;
   }
@@ -73,14 +69,13 @@
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  outline: none;
    box-shadow: 0px 4px 10px #05080a;
 }
 .button_2:hover{
   background-color: #0088cc;
   box-shadow: 0px 5px 17px #05080a;
   color: #fff;
-  transform: translateY(-7px);
+  transform: translateY(-5px);
 }
 .block_2{
   width: 100%;
@@ -101,10 +96,118 @@
   transition: 0.3s;
   box-shadow: 0px 5px 17px #05080a;
 }
-.img_12:hover{
-  width: 160px;
+.text_blitz{
+  font-size: 40px;
+  color: #a19d94;
+  font-family: 'Roboto', sans-serif;
 }
-.block__1{
-  
-
+.wot_blitz_2{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.wot_blitz_button{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.wot_button{
+  width: 220px;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  background-color: brown;
+  border-radius: 45px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+   box-shadow: 0px 10px 17px #05080a;
+}
+.wot_button:hover{
+  box-shadow: 0px 10px 17px #05080a;
+  color: #fff;
+  transform: translateY(-5px);
+}
+.blitz_img{
+  width: 450px;
+}
+.block__img_23{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+@media(max-width:990px){
+  .ul{
+    column-gap: 15px;
+  }
+  .home{
+    padding: 20px 40px;
+  }
+}
+.block_23{
+  display: flex;
+  justify-content: center;
+}
+.block_23{
+  display: none;
+}
+@media(max-width:769px){
+  .block_23{
+    display: flex;
+  }
+  .block_1{
+    display: none;
+  }
+  .blitz_img{
+    width:400px;
+    padding-top: 50px;
+  }
+  .block_img_blitz{
+    width: 100%;
+    height: 820px;
+    background-image:  url(./images/img_112.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .block_2{
+    background-image:none;
+  }
+}
+@media(max-width:550px){
+  .block_img_blitz{
+    background-image: none;
+  }
+  .block_img_blitz_1{
+    width: 100%;
+    height: 820px;
+    background-image:  url(https://wallpaperaccess.com/full/3763531.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .block__img_23{
+    display: none;
+  }
+.button_2{
+  width: 100px;
+  height: 35px;
+  font-size: 11px;
+}
+}
+@media(max-width:447px){
+  .logo_img{
+    text-align: center;
+    font-size: 25px;
+  }
+  .button_2{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+  }
 }
